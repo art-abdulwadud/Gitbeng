@@ -1,0 +1,23 @@
+<div class="user-profile p-2">
+  <div class="container public-repos">
+    <a [href]="repos.html_url" target="_blank">
+      <h3 class="repo-name">{{ repos.name }}</h3>
+    </a>
+    <p class="repo-des">{{ repos.description }}</p>
+    <p class="repo-des">{{ repos.language }}</p>
+    <div class="text-right pb-2">
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-one">Watchers</button>
+        <button type="button" class="btn btn-secondary">
+          {{ repos.watchers }}
+        </button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-two">Forks</button>
+        <button type="button" class="btn btn-secondary">
+          {{ repos.forks }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

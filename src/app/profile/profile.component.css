@@ -1,0 +1,38 @@
+.user-profile{
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333, #dd1818);
+    background: linear-gradient(to right, #333333, #dd1818);
+}
+.user-flex-wrapper{
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.6);
+}
+.user-img{
+    height: 15vh;
+    border-radius: 100px;
+}
+.username{
+    font-family: 'Bangers', cursive;
+    font-size: calc(112% + 1.1vh);
+}
+.bio{
+    font-family: 'Abel', sans-serif;
+    font-size: calc(112% + 0.6vh);
+}
+.location{
+    font-family: 'Abel', sans-serif;
+    font-size: calc(112% + 0.6vh);
+}
+.btn-one{
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);
+    background: linear-gradient(to right, #dd1818, #333333);
+    color: white;
+}
+.btn-two{
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333, #dd1818);
+    background: linear-gradient(to right, #333333, #dd1818);
+    color: white;
+}
+

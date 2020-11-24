@@ -1,0 +1,56 @@
+header{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+}
+.nav-sec{
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.header-bg-sec{
+    position: relative;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background: url(../../assets/bg1.jpg);
+    background-size: cover;
+    margin-right: 0;
+    margin-left: 0;
+    z-index: 1;
+}
+.overlay-sec{
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background: rgba(0,0,0,0.4);
+    z-index: 2;
+}
+/* Header text section*/
+.header-text-sec{
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-right: 0;
+    margin-left: 0;
+    z-index: 3;
+}
+.icon-sec{
+    padding: 5px;
+}
+.gitbeng-gif{
+    height: 25vh;
+}
+.search-bar-sec{
+    padding: 5px;
+}
+#search-bar{
+    width: 70%;
+    height: 8vh;
+}
+.search-btn{
+    height: 8vh;
+    background: #dd1818;
+    color: white;
+}

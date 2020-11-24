@@ -1,0 +1,19 @@
+<div class="user-profile p-2">
+    <div class="container user-flex-wrapper mb-2">
+        <img [src]="users.avatar_url" alt="user" class="user-img img-fluid mt-3">
+        <h3 class="username">{{ users.login }}</h3>
+        <p class="bio">{{ users.bio }}</p>
+        <p class="location"><span>Location:</span> {{ users.location}}</p>
+        <div class="text-right pb-2">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-one">Followers</button>
+                        <button type="button" class="btn btn-secondary">{{ users.followers }}</button>
+                    </div>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-two">Following</button>
+                        <button type="button" class="btn btn-secondary">{{ users.following }}</button>
+                    </div> 
+        </div>   
+    </div>
+</div>
+

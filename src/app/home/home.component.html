@@ -1,0 +1,28 @@
+<section class="header-sec">
+    <header>
+        <div class="nav-sec">
+            <app-navbar></app-navbar>
+        </div>
+        <div class="header-bg-sec"></div>
+        <div class="overlay-sec"></div>
+        <div class="header-text-sec">
+            <div class="icon-sec text-center">
+                <img src="../../assets/logo3.gif" class="gitbeng-gif img-fluid" alt="gitbeng">
+            </div>
+            <div class="search-bar-sec text-center mb-3">
+                <form>
+                    <input type="text" id="search-bar" placeholder="Search github users" name="username" (keyup.Enter)="search()">
+                    <button type="button" class="btn search-btn" (click)="search()">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+</section>
+
+<section class="profile-sec">
+    <app-profile
+    [users]='users'></app-profile>
+    <app-repos
+    *ngFor='let repo of repos'
+    [repos]='repo'></app-repos>
+</section>

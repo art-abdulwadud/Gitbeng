@@ -1,0 +1,27 @@
+.navbar{
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333, #dd1818);
+    background: linear-gradient(to right, #333333, #dd1818);
+}
+.brand-name{
+    font-family: 'Modak', cursive;
+    color: white;
+    font-size: calc(112% + 1.1vh);
+}
+.navbar-collapse{
+    text-align: center !important;
+}
+.nav-item{
+    padding: 5px;
+}
+.nav-link{
+    font-family: 'Bangers', cursive;
+    color: white !important;
+    font-size: calc(100% + 0.7vh);
+    transition: 0.5s;
+}
+.nav-link:hover{
+    background: transparent;
+    color: black !important;
+    border-radius: 5px;
+}
